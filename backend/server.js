@@ -4,11 +4,11 @@ import dotenv from "dotenv";
 import { connectDB } from "./config/db.js";
 import todoRoutes from "./routes/todo.routes.js";
 import path from "path";
-const PORT = process.env.PORT || 5000;
 
 dotenv.config();
 
 const app = express();
+const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
 
