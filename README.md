@@ -6,6 +6,7 @@ A straightforward and user-friendly to-do list application built to demonstrate 
 View Live Demo on Render (https://routine-x.onrender.com)
 
 The "Why" Behind the Tech
+
 This project was more than just building another to-do app, it was an exercise in making deliberate technology choices and understanding the trade-offs, just like in a real engineering team. 
 
 Here’s a breakdown of my thought process;
@@ -40,7 +41,7 @@ git clone https://github.com/Timani723/routine-x
 cd routine-x
 
 Install Backend Dependencies:
-# From the root directory
+## From the root directory
 
 npm install
 
