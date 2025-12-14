@@ -1,3 +1,5 @@
+##Routine - X
+
 Routine-X: A Simple Todo Application
 A straightforward and user-friendly to-do list application built to demonstrate a full-stack web development workflow, from initial setup to deployment.
 
@@ -34,10 +36,12 @@ How to Run This Project Locally:
 
 Clone the repository:
 git clone https://github.com/Timani723/routine-x
+
 cd routine-x
 
 Install Backend Dependencies:
 # From the root directory
+
 npm install
 
 Install Frontend Dependencies:
@@ -45,15 +49,18 @@ cd frontend
 npm install
 
 Set up Environment Variables: Create a .env file in the backend directory and add your MongoDB connection string
+
 MONGO_URI=your_mongodb_connection_string
 
 Run the Application:
 Start the Backend Server: In the root directory, run:
 
 npm start
+
 The server will run on http://localhost:5000.
 
 Start the Frontend Development Server: In a new terminal, navigate to the frontend directory and run:
 
 npm run dev
+
 The app will be available at http://localhost:5173.
